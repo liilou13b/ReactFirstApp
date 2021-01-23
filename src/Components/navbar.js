@@ -5,7 +5,7 @@ const Navbar = (props) => {
         <React.Fragment>
         <nav className="navbar  navbar-light bg-light">
          <div className="container">
-         <a className="navbar-brand" >Counter Active  <span className="badge badge-pill badge-primary">{count}</span></a>
+         <a className="navbar-brand" > <span className="badge badge-pill badge-primary">{count}</span></a>
          </div>
         </nav>
     </React.Fragment> 
